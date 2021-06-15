@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: .9rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.title {
+    margin-top: 100px;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #bdbbbb;
+}
+
+.big-post {
+    display: flex;
+}
+
+.big-post img {
+    width: 585px;
+    height: 307px;
+    margin: 20px 0px;
+}
+
+.big-post-details {
+    margin-top: 70px;
+    margin-left: 45px;
+    width: 30%;
+}
+
+.big-post-details .author-info img {
+    margin-top: 3px;
+}
+
+.small-posts {
+    display: flex;
+    width: 100%;
+    gap: 45px;
+}
+
+.small-posts img {
+    width: 270px;
+    padding-top: 30px;
+}
+
+.small-posts h3 {
+    font-size: 1.3rem;
+    margin: 10px 0px;
+}
+
+.author-info {
+    display: flex;
+}
+
+.author-info > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 10px;
+}
